@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-class User extends Equatable {
-  const User({
+class LNUser extends Equatable {
+  const LNUser({
     required this.id,
     required this.email,
     required this.name,
@@ -9,7 +9,7 @@ class User extends Equatable {
     required this.learnPoints,
   });
 
-  const User.empty()
+  const LNUser.empty()
       : this(
           id: "0",
           email: '',

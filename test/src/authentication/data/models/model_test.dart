@@ -12,7 +12,7 @@ void main() {
 
   test('should be a subclass of [User] entity', () {
     // Assert
-    expect(tModel, isA<User>());
+    expect(tModel, isA<LNUser>());
   });
 
   final tJson = fixture('user.json');

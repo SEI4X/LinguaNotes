@@ -4,7 +4,7 @@ import 'package:lingua_notes/utils/typedef.dart';
 abstract class ProfileRepository {
   const ProfileRepository();
 
-  ResultFuture<User> getUserData({
+  ResultFuture<LNUser> getUserData({
     required String id,
   });
 

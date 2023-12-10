@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:lingua_notes/src/authentication/domain/entities/user.dart';
 import 'package:lingua_notes/utils/typedef.dart';
 
-class UserModel extends User {
+class UserModel extends LNUser {
   const UserModel({
     required super.id,
     required super.email,

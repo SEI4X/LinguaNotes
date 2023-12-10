@@ -13,7 +13,7 @@ class AuthenticationRepositoryImplementation
   final AuthenticationRemoteDataSource _remoteDataSource;
 
   @override
-  ResultFuture<String> signInByEmail({
+  ResultFuture<void> signInByEmail({
     required String email,
     required String password,
   }) async {
@@ -43,7 +43,7 @@ class AuthenticationRepositoryImplementation
   }
 
   @override
-  ResultFuture<User> signUpByEmail() {
+  ResultFuture<LNUser> signUpByEmail() {
     // TODO: implement signUpByEmail
     throw UnimplementedError();
   }

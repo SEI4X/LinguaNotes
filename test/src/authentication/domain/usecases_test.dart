@@ -18,7 +18,7 @@ void main() {
   });
 
   const params = SignInByEmailParams.empty();
-  final testUser = const User.empty().id;
+  final testUser = const LNUser.empty().id;
 
   test(
     "should call the [AuthRepo.createUser] and return User",
